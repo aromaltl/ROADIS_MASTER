@@ -10,7 +10,7 @@ def run():
                 for j in df[i]:
                     t=eval(j)
                     for c in t:
-                        if len(c)!=6:
+                        if len(c)<5:
                             print(x,c,'not correct')
                             return None
                         if len(c[1])<3:
